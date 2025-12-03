@@ -31,13 +31,6 @@ set_macos_default_if_different \
     false
 
 set_macos_default_if_different \
-	'Disable the "Are you sure you want to open this application?" dialog' \
-    'com.apple.LaunchServices' \
-    'LSQuarantine' \
-    '-bool' \
-    false
-
-set_macos_default_if_different \
 	'Set highlight color to green' \
     'NSGlobalDomain' \
     'AppleHighlightColor' \
