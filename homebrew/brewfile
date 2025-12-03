@@ -1,0 +1,4 @@
+cask "github"
+cask "shottr"
+cask "visual-studio-code"
+mas "Keynote", id: 409183694

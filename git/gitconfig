@@ -1,0 +1,23 @@
+[user]
+	name = Mathijs de Ruiter
+	email = RuiterMJ@delagelanden.com
+
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[init]
+	defaultBranch = master
+	
+[include]
+	path = "~/.dotfiles/git/aliases.gitconfig"
+	path = "~/.dotfiles/git/colors.gitconfig"
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
