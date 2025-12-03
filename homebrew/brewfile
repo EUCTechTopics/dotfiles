@@ -1,4 +1,5 @@
 cask "1password"
+cask "alfred"
 cask "github"
 cask "gpg-suite"
 cask "shottr"
