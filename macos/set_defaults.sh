@@ -1,10 +1,12 @@
 #!/bin/zsh
 source 'zsh/functions.sh'
+
 source 'macos/helpers/set_macos_default_if_different.sh'
 source 'macos/helpers/set_plist_value_if_different.sh'
 
 sudo -v
-echo 'Setting macOS defaults'
+
+log_header 'Setting macOS defaults'
 
 echo 'Close any open System Preferences panes'
 osascript -e 'tell application "System Preferences" to quit'

@@ -7,11 +7,11 @@ COPY := sudo cp -r
 
 install:
 
-	@$(SHELL) 'source macos/install_rosetta.sh'
 	@$(SHELL) 'source macos/set_defaults.sh'
 	@$(SHELL) 'source macos/dock_setup.sh'
+	@$(SHELL) 'source macos/install_rosetta.sh'
 	@$(SHELL) 'source homebrew/install.sh'
-# 	@$(SHELL) 'source homebrew/install_homebrew_packages.sh'
+	@$(SHELL) 'source homebrew/install_homebrew_packages.sh'
 
 # 	@$(REMOVE) ~/.gitconfig
 # 	@$(LINK) ~/.dotfiles/git/gitconfig ~/.gitconfig

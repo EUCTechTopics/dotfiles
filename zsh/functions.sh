@@ -8,6 +8,14 @@ tty_red="$(tty_mkbold 31)"
 tty_bold="$(tty_mkbold 39)"
 tty_reset="$(tty_escape 0)"
 
+# log header function to print a header with asterisk decoration above and below and one char before and after
+function log_header() {
+    local header="$1"
+    local length=${#header}
+    local decoration_line="$(printf '%*s' $((length + 4)) '' | tr ' ' '*')"
+    printf "${tty_blue}%s\n* %s *\n%s${tty_reset}\n" "$decoration_line" "$header" "$decoration_line"
+}
+
 function echo() {
     printf "${tty_blue}==>${tty_bold} %s${tty_reset}\n" "$(shell_join "$@")"
 }

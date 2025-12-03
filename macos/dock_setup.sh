@@ -1,6 +1,8 @@
 #!/bin/zsh
 source 'zsh/functions.sh'
 
+log_header 'Setting up Dock preferences'
+
 echo "Wipe all (default) app icons from the Dock"
 defaults write com.apple.dock persistent-apps -array
 

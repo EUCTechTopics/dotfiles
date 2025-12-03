@@ -1,6 +1,6 @@
 #!/bin/zsh
 source 'zsh/functions.sh'
-echo "Checking for Homebrew..."
+log_header 'Installing Homebrew'
 
 # Install Homebrew only if missing
 if ! command -v brew >/dev/null 2>&1; then

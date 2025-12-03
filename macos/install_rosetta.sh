@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 source 'zsh/functions.sh'
-echo 'Installing Rosetta 2'
+log_header 'Installing Rosetta 2'
 
 # check if Rosetta is already installed
 if /usr/bin/pgrep oahd >/dev/null 2>&1; then
