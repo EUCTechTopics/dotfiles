@@ -14,7 +14,7 @@ echo "Speed up the animation when hiding/showing the Dock"
 defaults write com.apple.dock autohide-time-modifier -float 0.15
 
 echo "Dim hidden apps"
-defaults write com.apple.dock showhidden -bool true
+defaults write com.apple.dock showhidden -bool false
 
 echo "Dont automatically rearrange Spaces based on most recent use"
 defaults write com.apple.dock mru-spaces -bool false
@@ -22,13 +22,11 @@ defaults write com.apple.dock mru-spaces -bool false
 echo "Minimize windows into their applications icon"
 defaults write com.apple.dock minimize-to-application -bool true
 
-echo "Show only open applications in the Dock"
-defaults write com.apple.dock static-only -bool true
-
 echo "Dont show recent applications in Dock"
 defaults write com.apple.dock show-recents -bool false
 
 echo "Show notification badges on dock icons"
 defaults write com.apple.dock show-process-indicators -bool true
+
 
 killall Dock
