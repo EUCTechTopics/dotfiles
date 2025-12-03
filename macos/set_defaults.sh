@@ -115,7 +115,7 @@ killall Finder
 # Keyboard
 echo 'Optimize keyboard response'
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 20
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 set_macos_default_if_different \
 	'Disable automatic text corrections' \
