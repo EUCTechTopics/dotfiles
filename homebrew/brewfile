@@ -1,7 +1,9 @@
 cask "1password"
 cask "alfred"
+cask "boop"
 cask "github"
 cask "gpg-suite"
+cask "keepingyouawake"
 cask "shottr"
 cask "visual-studio-code"
 mas "Keynote", id: 409183694
