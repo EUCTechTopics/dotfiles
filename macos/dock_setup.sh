@@ -3,9 +3,6 @@ source 'zsh/functions.sh'
 
 log_header 'Setting up Dock preferences'
 
-echo "Wipe all (default) app icons from the Dock"
-defaults write com.apple.dock persistent-apps -array
-
 echo "Automatically hide and show the Dock"
 defaults write com.apple.dock autohide -bool true
 
@@ -27,5 +24,5 @@ defaults write com.apple.dock show-recents -bool false
 echo "Show notification badges on dock icons"
 defaults write com.apple.dock show-process-indicators -bool true
 
-
+echo "Restarting Dock to apply changes"
 killall Dock
