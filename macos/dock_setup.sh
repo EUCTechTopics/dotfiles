@@ -15,9 +15,6 @@ defaults write com.apple.dock autohide-delay -float 0
 echo "Speed up the animation when hiding/showing the Dock"
 defaults write com.apple.dock autohide-time-modifier -float 0.15
 
-echo "Dim hidden apps"
-defaults write com.apple.dock showhidden -bool false
-
 echo "Dont automatically rearrange Spaces based on most recent use"
 defaults write com.apple.dock mru-spaces -bool false
 
