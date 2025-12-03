@@ -16,3 +16,6 @@ install:
 	@$(LINK) ~/.dotfiles/git/gitconfig ~/.gitconfig
 	@$(REMOVE) ~/.gitignore_global
 	@$(LINK) ~/.dotfiles/git/global_ignore ~/.gitignore_global
+
+	@$(REMOVE) ~/.zprofile
+	@$(LINK) ~/.dotfiles/zsh/zprofile ~/.zprofile
