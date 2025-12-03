@@ -1,0 +1,1 @@
+alias installapps='source ~/.dotfiles/homebrew/install_homebrew_packages.sh'
