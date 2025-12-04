@@ -4,5 +4,14 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "git.confirmSync": false,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        120
+    ],
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
 }
