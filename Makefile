@@ -13,10 +13,13 @@ install:
 	@$(SHELL) 'source homebrew/install.sh'
 	@$(SHELL) 'source homebrew/install_homebrew_packages.sh'
 
-# 	@$(REMOVE) ~/.gitconfig
-# 	@$(LINK) ~/.dotfiles/git/gitconfig ~/.gitconfig
-# 	@$(REMOVE) ~/.gitignore_global
-# 	@$(LINK) ~/.dotfiles/git/global_ignore ~/.gitignore_global
+	@$(REMOVE) ~/.gitconfig
+	@$(LINK) ~/.dotfiles/git/gitconfig ~/.gitconfig
+	@$(REMOVE) ~/.gitignore_global
+	@$(LINK) ~/.dotfiles/git/global_ignore ~/.gitignore_global
 
-# 	@$(REMOVE) ~/.zprofile
-# 	@$(LINK) ~/.dotfiles/zsh/zprofile ~/.zprofile
+	@$(REMOVE) ~/.zprofile
+	@$(LINK) ~/.dotfiles/zsh/zprofile ~/.zprofile
+
+	@$(REMOVE) ~/Library/Application\ Support/Code/User/settings.json
+	@$(LINK) ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json

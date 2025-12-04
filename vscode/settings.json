@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false
+}
