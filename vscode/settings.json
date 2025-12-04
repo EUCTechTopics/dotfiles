@@ -13,5 +13,6 @@
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.colorTheme": "Default Dark+"
 }
