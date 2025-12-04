@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>HideFirstRow</key>
+			<true/>
+			<key>HideSecondRow</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>SupportApp by Root3</string>
+			<key>PayloadIdentifier</key>
+			<string>nl.root3.support.AB9D88FA-D91C-45B6-BFB1-F521455ADAA3</string>
+			<key>PayloadType</key>
+			<string>nl.root3.support</string>
+			<key>PayloadUUID</key>
+			<string>2BDFECF6-FCC4-4828-81B0-2FB9C1F4D360</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>StatusBarIconSFSymbol</key>
+			<string>heart.fill</string>
+			<key>Title</key>
+			<string>Hi, **Mathijs** 🥷</string>
+			<key>FooterText</key>
+			<string>Provided by your **IT department** with ❤️</string>
+			<key>Logo</key>
+			<string>/Library/Application Support/dll_225x225.png</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Root3 Support</string>
+	<key>PayloadIdentifier</key>
+	<string>MacBook-Pro-16.70158EAE-BB5D-44E1-B9AD-F4E3439045F3</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2D1A5099-08D9-4199-AB2C-5C099E338EC6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
