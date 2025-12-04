@@ -14,7 +14,7 @@ install:
 	@$(SHELL) 'source homebrew/install_homebrew_packages.sh'
 
 	@$(REMOVE) /Library/Application\ Support/dll_225x225.png
-	@$(LINK) ~/.dotfiles/support-app/dll_225x225.png /Library/Application\ Support/dll_225x225.png
+	@$(COPY) ~/.dotfiles/support-app/dll_225x225.png /Library/Application\ Support/dll_225x225.png
 
 	@$(REMOVE) ~/.gitconfig
 	@$(LINK) ~/.dotfiles/git/gitconfig ~/.gitconfig
