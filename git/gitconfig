@@ -26,3 +26,5 @@
 	required = true
 [bart]
 	hooionk = isdebeste
+[gpg]
+	program = /usr/local/bin/gpg
