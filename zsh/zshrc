@@ -1,0 +1,3 @@
+tmux
+
+eval "$(starship init zsh)"
