@@ -14,5 +14,6 @@
     "editor.suggestSelection": "first",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Default Dark+",
+    "makefile.configureOnOpen": false
 }
